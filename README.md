@@ -37,13 +37,27 @@ Currently, two official plugins are available:
    ```
 
 3. **Install dependencies:**:
+
+   ```bash
    npm install
 
+   ```
+
 4. **Start the development server:**:
+
+   ```bash
    npm run dev
 
+   ```
+
 5. **Build the project for production (optional):**:
+
+   ```bash
    npm run build
 
+   ```
+
 6. **Preview the production build (optional):**:
+   ```bash
    npm run preview
+   ```
