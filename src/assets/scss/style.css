@@ -69,3 +69,20 @@
   border-radius: 7px !important;
   min-height: 38px !important;
 }
+
+.rdt_TableCol {
+  font-weight: 600;
+}
+
+.rdt_TableCol,
+.rdt_TableCell {
+  font-size: 14px;
+}
+
+.start-10 {
+  left: 10px;
+}
+
+.ps-33p {
+  padding-left: 33px;
+}

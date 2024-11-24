@@ -1,6 +1,7 @@
 import React from "react";
 
 //import Scss
+import "bootstrap/dist/css/bootstrap.min.css";
 import "remixicon/fonts/remixicon.css";
 import "./assets/scss/themes.scss";
 import "./assets/scss/style.css";

@@ -124,8 +124,8 @@ const Table = () => {
   return (
     <>
       <Container>
-        <Card className={"mt-4"}>
-          <CardHeader>
+        <Card className={"mt-4 overflow-hidden"}>
+          <CardHeader className="bg-white">
             <Row className="justify-content-between align-items-center">
               <Col
                 lg={2}
@@ -139,16 +139,16 @@ const Table = () => {
                 className="d-flex align-items-center justify-content-xl-end justify-content-center">
                 <Row className={"align-items-center w-100"}>
                   <Col lg={4} sm={6}>
-                    <div className="search-box">
+                    <div className="search-box position-relative">
                       <Input
                         type="text"
-                        className="search"
+                        className="search ps-33p"
                         name="text"
                         value={filter.text}
                         placeholder="Search here.."
                         onChange={handleFilter}
                       />
-                      <i className="ri-search-line search-icon"></i>
+                      <i className="ri-search-line search-icon position-absolute top-50 translate-middle-y start-10"></i>
                     </div>
                   </Col>
                   <Col lg={3} sm={6} className={"mt-sm-0 mt-2"}>
