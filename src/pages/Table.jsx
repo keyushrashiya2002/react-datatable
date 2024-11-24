@@ -124,7 +124,7 @@ const Table = () => {
   return (
     <>
       <Container>
-        <Card className={"mt-4 overflow-hidden"}>
+        <Card className={"mt-4 rounded-0 border"}>
           <CardHeader className="bg-white">
             <Row className="justify-content-between align-items-center">
               <Col
@@ -195,7 +195,7 @@ const Table = () => {
               </Col>
             </Row>
           </CardHeader>
-          <CardBody className="p-0">
+          <CardBody className="p-0 ">
             <DataTable
               columns={columns}
               data={data}
