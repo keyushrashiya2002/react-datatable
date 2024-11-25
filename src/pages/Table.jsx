@@ -111,6 +111,11 @@ const Table = () => {
       ),
       selector: (row) => row.launchDate,
       sortable: true,
+      sortFunction: (rowA, rowB) => {
+        const dateA = new Date(rowA.launchDate);
+        const dateB = new Date(rowB.launchDate);
+        return dateA - dateB; // Sort in ascending order
+      },
     },
   ];
 
